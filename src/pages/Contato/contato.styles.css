@@ -1,0 +1,47 @@
+
+  .redes-sociais{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      text-justify: auto;
+      width: 550px;
+      height: 350px;
+      font-size: 24px;
+      margin: 40px auto;
+     
+      
+  }
+
+  .redes-sociais p{
+      text-align: center;
+  }
+
+  .siga{
+      font-size: 36px;
+      margin: inherit;
+      
+  }
+  
+  .icons{
+    width: 70%;
+    height: 30%;
+    background-color: rgb(205,92,92);
+    border-radius: 10px;
+    padding: 16px;
+    transition: 0.5s all;
+    box-shadow: 5px 5px 9px #cccccc;
+    margin-top: 20px; 
+  }
+
+  img{
+    width: 60%;
+   
+    border-radius: 50px;
+    padding: 16px;
+   
+    margin-left: 10px;
+      
+  }
+  
