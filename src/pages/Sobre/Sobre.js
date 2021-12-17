@@ -1,5 +1,6 @@
 import Menu from '../../components/Menu/Menu'
 import Header from '../../components/Header/Header'
+import ImageSobre from '../../assets/Anquilose.jpg'
 
 
 import './sobre.styles.css'
@@ -19,9 +20,11 @@ const Sobre=()=>{
                         <p>A anquilose da articulação têmporo-mandibular é uma doença rara, resultante da fusão do côndilo(eminência arredondada na extremidade do osso) mandibular
                          com a base do crânio .</p>
                     </div>
-                </div>   
+                       
+                </div>  
+                
             </section>
-
+           
             <section className="card-conseq">
             <h2 className="card-conseq__titulo">Limitações:</h2>
             <div className="container-listas" >
@@ -35,10 +38,13 @@ const Sobre=()=>{
                        <li>Assimetria facial</li>
 
                     </ul>
+                    
                 </div>
-            </div>
+                <img src={ImageSobre} alt='Foto da anatomia do rosto' className="container-texto__imagem"/>
+                </div>
              
             </section>
+             
 
             </main>
             </Header> 

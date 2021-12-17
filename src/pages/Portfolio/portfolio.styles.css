@@ -1,0 +1,43 @@
+.card-container {
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    width: 80%;
+    align-items: center;
+  }
+  
+  .card {
+    height: 280px;
+    width: 400px;
+    background-color: #9c6654;
+    border-radius: 4px;
+    color: white;
+    padding: 8px;
+    
+  }
+  
+  .enter-repo {
+    bottom: 0;
+    margin-top:50%;
+  }
+  h3{
+    font-size: 20px;
+    margin-left: 5px;
+  }
+  .dados{
+    font-size: 20px;
+    margin-bottom: 10px;
+   
+  }
+  
+  .dados::before{
+    content:"❁";
+    margin-left: 10px;
+    color: rgb(228, 92, 171);
+    margin: 10px;
+    padding: 5px;
+  }
+  
+  

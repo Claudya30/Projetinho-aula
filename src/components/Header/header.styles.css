@@ -1,8 +1,8 @@
 .header {
-    padding: 40px;
+    padding: 20px;
     text-align: center;
     color: white;
-    background: linear-gradient(rgba(119, 136, 153),rgba(191, 231, 241, 0.5)),url(../../assets/Anquilose.jpg) no-repeat repeat;
+    background: linear-gradient(rgb(8, 44, 80),rgba(209, 213, 214, 0.5)),url(../../assets/Anquilose3.jpg) no-repeat repeat;
    
     background-size: cover;
     height: 500px;

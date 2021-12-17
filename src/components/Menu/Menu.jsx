@@ -7,7 +7,7 @@ const Menu = () =>{
     <ul className="navbar">
 
 <li>
-        <Link className="link" to="/logo"><FaHandHoldingHeart size={60} color="rgb(56,56,56)"/></Link>
+        <Link className="link" to="/logo"><FaHandHoldingHeart size={60} color="rgb(205,92,92)"/></Link>
       </li>
       
       <li>
@@ -18,11 +18,12 @@ const Menu = () =>{
         <Link  className="link" to="/sobre">Sobre</Link>
       </li>
 
-      <li>
-        <Link className="link" to="/direitos">Direitos</Link>
-      </li>
 
       <li>
+        <Link className="link" to="/portfolio">Portfolio</Link>
+      </li>
+
+     <li>
         <Link className="link" to="/contato">Contato</Link>
       </li>
 

@@ -5,7 +5,7 @@ const Logo = () => {
   return(
     <>
       <Menu />
-      <Header> <FaHandHoldingHeart size={90} color="rgb(56,56,56)"/> <Header/>
+      <Header> <FaHandHoldingHeart size={90} color="rgb(199,21,133)"/> <Header/>
       
         
          

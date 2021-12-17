@@ -10,7 +10,9 @@ const Contato = () => {
     <>
       <Menu />
       <Header >Compartilhe!Juntas somos mais
-      <div className="redes-sociais">
+      
+      
+      <div className="redes-sociais"><img src={ImageContato}  alt='Foto da maravilhosa'/>
         <p className="Siga">Siga-me nas redes sociais:</p>
         <p>contato@claudya30</p>
         <div  className='icons'>
@@ -29,7 +31,7 @@ const Contato = () => {
             <TiSocialFacebook size={90} color="rgb(56,56,56)"/>
           </a>
 
-          <img src={ImageContato} alt=''/>
+          
           
           </div>
 
