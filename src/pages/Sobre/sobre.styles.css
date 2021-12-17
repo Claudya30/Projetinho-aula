@@ -1,13 +1,5 @@
-header {
-    
-    padding:40px;
-    text-align: center;
-    color: white;
-    background: linear-gradient(rgba(97, 27, 62, 0.5),rgba(167, 29, 71, 0.7)),url(../../assets/background4.jpg) no-repeat repeat;
-    background-size: cover;
-  }
 
-  .banner{
+.banner{
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -16,7 +8,7 @@ header {
 }
 
 main{
-    width: 60%;
+    width: 80%;
     background: #808080;
     margin: 3% 5%;
     border-radius: 10px;
@@ -48,8 +40,8 @@ main{
 .container-texto__paragrafo p{
     color: rgb(14, 12, 12);
     font-size: 18px;
-   
     text-align: justify; 
+    
 }
 
 .card-conseq__titulo{
@@ -65,8 +57,8 @@ main{
 }
 
 .listas{
-    width: 60%;
-    background-color:  #BC8F8F;
+    width: 50%;
+    background-color:  #9c6654;
     border-radius: 10px;
     padding: 16px;
     transition: 0.5s all;
@@ -89,6 +81,12 @@ main{
     color: rgb(219,112,147);
 }
 
+.container-texto__imagem{
+    width: 30%;
+    border-radius: 40px;
+    margin-top: auto;
+}
+   
 
 
 

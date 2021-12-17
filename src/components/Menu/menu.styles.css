@@ -2,10 +2,10 @@
     display: flex;
     justify-content: space-evenly;
     overflow: hidden;
-    background: #090b0e;
+    background: rgb(10, 9, 9);
     font-size: 24px;
     padding: 20px;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    box-shadow: 0 2px 4px 0 rrgb(56, 56, 56);
   }
   
   .navbar a {
